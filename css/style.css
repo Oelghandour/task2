@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+html,body{  
+    margin:0; 
+    padding:0;    
+    height:7000px; 
+} 
+body{
+    position: relative;
+}
+header{
+    background-image: linear-gradient(to right, blue,tomato);
+
+    height: 100vh;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+header::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header nav img{
+    width: 100px;
+    padding-top: 10px;
+    border-radius: 30px;
+}
+header nav a{
+    transition: 2s ease;
+}
+.content{
+    margin-top: 15%;
+    text-align: center;
+}
+.content h1{
+    padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+}
+.content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.content a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 2s ease;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.container2{
+    background-image: url(../images/pexels-padrinan-255379.jpg);
+    height: auto;
+    padding-bottom: 1rem;
+    background-size: cover;
+}
+.container2 span{
+    color: black;
+}
+.container2 h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.container2 p{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 5%;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+.about p{
+    text-transform: capitalize;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+.about img{
+    width: 420px;
+    height: 320px;
+    border-radius: 20px;
+    margin-right: 5%;
+}
+.container3{
+    margin-top: 100px;
+    display: block;
+    height: auto;
+    padding-bottom: 1rem;
+}
+.container3 h2{
+    font-size: 40px;
+    color: skyblue;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 65px;
+    text-align: center;
+}
+.cams{
+    display: block;
+}
+.cams1{
+    display: flex;
+    justify-content: space-around;
+}
+.cameras{
+    border: 1px solid black;
+    border: none;
+    background-image: url(../images/images\ \(1\).jpeg);
+    background-size: cover;
+    border-radius: 15px;
+    height: 550px;
+    width: 450px;
+    text-align: center;
+}
+.cameras img{
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cameras h2{
+    text-transform: capitalize;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.cameras p{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.cameras h4{
+    font-size: 25px;
+    color: gold;
+}
+.cams2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.cams3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.cams4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.container4{
+    margin-top: 70px;
+    display: block;
+    background-image: url(../images/IMG-20241004-WA0005.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+.container4 h2{
+    text-transform: uppercase;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    text-align: center;
+    padding-top: 40px;
+}
+.testmonials{
+    display: flex;
+    justify-content: space-around;
+}
+.testmonial{
+    border: 1px solid black;
+    border: none;
+    border-radius: 15px;
+    background-image: url(../images/offer-background.jpg);
+    background-size: cover;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+}
+.testmonial h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: white;
+}
+.testmonial img{
+    width: 120px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.icon{
+    margin-bottom: 20px;
+}
+.icon i{
+    font-size: 20px;
+    margin-right: 10px;
+    color: white;
+    color: yellow;
+}
+.testmonial p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.container5{
+    height: 100vh;
+    background-size: cover;
+    background-image: url(../images/pexels-pixabay-531880.jpg);
+}
+.container5 h2{
+    padding-top: 40px;
+    margin-bottom: 70px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: blue;
+    text-align: center;
+}
+.contact_us{
+    display: flex;
+    justify-content: space-around;
+}
+.adress{
+    display: block;
+}
+.place{
+    margin-bottom: 70px;
+}
+.place h3{
+    text-transform: capitalize;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.place p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.place p a{
+    margin-left: 10px;
+    color: white;
+}
+.place p i{
+    font-size: 15px;
+    margin-right: 5px;
+    color: gold;
+}
+.work h3{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+    margin-left: 20px;
+}
+.work p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.work p i{
+    font-size: 15px;
+    margin-right: 5px;
+    color: white;
+}
+.contact .input{
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+}
+.textarea{
+    width: 280px;
+    height: 120px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 35px;
+}
+.contact .submit{
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: aliceblue;
+    border: none;
+    text-decoration: none;
+    color: black;
+    width: 250px;
+    height: 50px;
+    transition: 1s ease all;
+}
+.contact .submit:hover{
+    transform: scale(1.2);
+    font-size: 20px;
+    background-color: gold;
+}
+.btnTop { 
+    height:50px; 
+    position: fixed; 
+    bottom: 30px; 
+    right: 5px;  
+    background: #fff;  
+    border: none; 
+    cursor: pointer; 
+    display: none; 
+    z-index:9999; 
+}
+.btnTop i{ 
+    font-size:40px; 
+    color: #b1afaf; 
+} 
+@media (max-width:667px){
+    .container1{
+        height: auto;
+        padding-bottom: 5rem;
+    }
+    .content{
+        text-align: left;
+        margin-left: 20px;
+        margin-top: 40%;
+    }
+    .content h1{
+        margin-bottom: 30px;
+    }
+    .content p{
+        margin-bottom: 50px;
+    }
+    .container2{
+        height: auto;
+    }
+    .about{
+        display: block;
+    }
+    .about p{
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    .container2 p{
+        margin-bottom: 30px;
+    }
+    .about img{
+        display: none;  
+    }
+    .container3{
+        height: auto;
+        padding-bottom: 1.5rem;
+    }
+    .cams{
+        width: 90%;
+        margin: auto;
+    }
+    .cams1{
+        display: block;
+    }
+    .cameras{
+        margin-bottom: 35px;
+        height: auto;
+        width: 350px;
+        padding-bottom: 2rem;
+    }
+    .cams2{
+        display: block;
+    }
+    .container4{
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .testmonials{
+        display: block;
+    }
+    .testmonial{
+        height: auto;
+        padding-bottom: 1rem;
+        margin: auto;
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .container5{
+        height: auto;
+        padding-bottom: 2rem;
+    }
+    .contact_us{
+        display: block;
+    }
+    .contact{
+        margin: auto;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .adress{
+        margin-bottom: 100px;
+    }
+    .place{
+        margin-bottom: 50px;
+    }
+}
